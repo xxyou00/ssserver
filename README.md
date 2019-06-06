@@ -29,7 +29,7 @@ Heroku 提供免费账号，具体限制如下：
 
 #### 2.Fork本项目
 1. Fork 本项目到个人账号下
-![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/4-min.png)
+![](https://github.com/xxyou00/ssserver/img/4-min.png)
 
 2. Clone 本项目：`git clone https://github.com/521xueweihan/shadowsocks-heroku.git`
 
@@ -39,13 +39,13 @@ heroku 在创建项目的时候可以，通过关联 GitHub 账号，直接部�
 1. 登陆 Heroku 帐号，后进入 Dashboard ——> Create New App ——> 输入 App Name
 2. 完成上一步后，会跳转到 Deploy 页面，找到 Deployment method 选择 GitHub 关联上自己的 GitHub 帐号。
 3. 关联上 shadowsocks-heroku 项目，如下图所示：
-    ![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/1-min.png)
+    ![](https://github.com/xxyou00/ssserver/img/1-min.png)
 4. 点击 Deploy Branch，部署成功如下图：
-    ![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/2-min.png)
+    ![](https://github.com/xxyou00/ssserver/img/2-min.png)
 
 ### 三、设置加密算法和密码
 Setting 页面 ——> Reveal Config Vars，设置参数如下图：
-![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/3-min.png)
+![](https://github.com/xxyou00/ssserver/img/3-min.png)
 
 **支持的加密算法类型如下：**  
 - rc4
@@ -72,6 +72,6 @@ Setting 页面 ——> Reveal Config Vars，设置参数如下图：
 1. 下载：Chrome 浏览器[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases/download/v2.3.21/SwitchyOmega.crx)，如果下载地址失效，可以在本项目下的 download 下找到 SwitchyOmega.crx
 2. 安装：打开浏览器的扩展程序页面 chrome://extensions 。把SwitchyOmega.crx文件拖放到浏览器扩展程序页面安装。
 3. 配置：SwitchyOmega：`代理协议：SOCKS5 代理服务器：127.0.0.1 代理端口：1080`，如下图：
-![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/5-min.png)
+![](https://github.com/xxyou00/ssserver/img/5-min.png)
 4. 选择代理  
-![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/6-min.png)
+![](https://github.com/xxyou00/ssserver/img/6-min.png)
